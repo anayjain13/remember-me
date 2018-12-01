@@ -26,8 +26,10 @@
 
 #AboutMe { 
 
-padding: 20px;
-overflow: auto; }
+padding-left: 50px;
+padding-right: 50px;
+overflow: auto;
+color: black; }
 
 
 #BusinessandManagement {
@@ -57,18 +59,11 @@ overflow: auto; }
     margin: 20px;
 }
 
-#CourseworkandSkills {
-	
-	padding: 20px; 
 
-    overflow: auto;
-    background-color: #c7cacf;
-    display:block;    
-
-}
 
 #ProfessionalExperience { 
     padding: 20px;
+    background-color: #FBFBFB;
     
 
  }
@@ -76,9 +71,15 @@ overflow: auto; }
 
 #Methods { 
     padding: 20px;
-    background-color: white;
+    background-color: #FBFBFB;
 
  }
+
+ html {
+  scroll-behavior: smooth;
+}
+
+
 
 a { 
 
@@ -107,36 +108,72 @@ a:visited {
     padding: 0px;
     overflow: auto;
 
-
-
-
 }
+
+#connect { 
+background-color: #FBFBFB;
+ }
 
 
 
 .card-columns { 
 
-padding: 20px;
+padding-top: 9px;
+padding-left: 15px; 
+padding-right: 15px; 
+padding-bottom: 15px;
+
 
  }
 
 .imgLink{
-    color: white; text-decoration: none;
+color: white;
+text-decoration: none;
 
 }
 
 #Copyright{ 
 
 text-align: center;
+background-color: #FBFBFB;
 
 
  }
+
+#icons {
+
+justify-content: center;
+
+
+ }
+#bb { 
+
+padding: 10px;
+ } 
+
+#b2 { 
+
+margin: 10px; } 
+
+#b3 { 
+
+padding: 10px; } 
+
+#b4 { 
+
+padding: 10px; } 
 
 .card-img-top {
     width: 100%;
     height: 17vw;
     object-fit: cover;
 }
+
+.card-header { 
+    font-weight: bold;
+    text-align: left;
+
+ }
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -442,6 +479,12 @@ font-family: 'PT Sans', serif;
 font-weight:bold;
 }
 
+h2 {
+
+font-family: 'PT Sans', serif;
+font-weight:bold;
+}
+
 p { 
  
  font-family: 'PT Sans', sans-serif;
@@ -455,7 +498,139 @@ font-family: 'PT Sans', sans-serif; }
 
 .card-body { 
  font-family: 'PT Sans', sans-serif;
+ text-align: left;
+ background-color: #FBFBFB;
 
+ }
+
+.card { 
+
+border-color: grey;
+border-width: 2px;
+
+
+
+ }
+
+
+head {
+    font-family: 'PT Sans', serif;
+
+}
+
+body { 
+ background-color:  ;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Francois+One|Play');
+
+html, body, section {
+    height: 100%;
+}
+
+
+body {
+    color: #000000;
+    text-align: center;
+}
+#pagelanding div {
+    display: flex;
+    flex-direction: column;
+    
+}
+.xop-container {
+    display: flex;
+    height: 100%;
+}
+#pagelanding div {
+    flex-direction: column;
+    
+}
+ 
+.xop-left {
+    background:  url("AJ.jpg");
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    padding: 1rem;
+    transition: all .2s ease-in-out;
+  text-transform: uppercase;
+  
+  
+}
+ 
+.xop-right {
+ background: rgb(17,16,16);
+background: linear-gradient(21deg, rgba(17,16,16,1) 0%, rgba(179,172,172,1) 45%, rgba(252,252,252,1) 100%);
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    padding: 1rem;
+    transition: all .2s ease-in-out;
+  
+  filter: hue-rotate(140deg);
+
+  
+}
+.xop-left:hover {
+    transform: scale(0.97);
+    -webkit-filter: grayscale(90%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(90%); /* FF 35+ */
+}
+
+.xop-right:hover {
+    transform: scale(0.99);
+    filter: hue-rotate(-45deg);
+
+  
+}
+.xop-container h1 {
+    letter-spacing: 2px;
+    font-family: 'Francois One', sans-serif;
+    font-size: 3rem;
+}
+.xop-button {
+    border-radius: 5px;
+    color: black;
+    background-color: #c4c8ce;
+    padding: 10px 6px;
+    margin: 0 1%;
+    text-align: center;
+  font-family: 'Play', sans-serif;
+    text-decoration: none;
+  letter-spacing: 1px;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 150px;
+    border: 5px;
+    
+}
+ 
+.xop-button:hover {
+    background-color: #b9bbbf;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .xop-container {
+    flex-direction: column;
+  }
+
+}
+
+.nav { 
+
+font-family: 'PT Sans', serif;
+
+ }
+
+.time { 
+
+font-family: 'PT Sans', serif;
  }
 
 
