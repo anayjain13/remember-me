@@ -1,5 +1,7 @@
 
-
+* {
+    transition: 0.25s;
+}
 
 .center {
     text-align: center;
@@ -71,7 +73,7 @@ color: black; }
 
 #Methods { 
     padding: 20px;
-    background-color: #FBFBFB;
+    /*background-color: #FBFBFB;*/
 
  }
 
@@ -123,7 +125,14 @@ padding-left: 15px;
 padding-right: 15px; 
 padding-bottom: 15px;
 
+/*display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+ }
 
+ .card {
+    width: 30% !important;
+    margin-right: 1rem;*/
  }
 
 .imgLink{
@@ -205,7 +214,7 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
     border-radius: 0px;
-    background-color: white;
+    background-color: #ddd;
     padding: 20px;
 
 }
@@ -634,6 +643,87 @@ font-family: 'PT Sans', serif;
 
 font-family: 'PT Sans', serif;
  }
+
+
+/*NEW PRABHAV CSS*/
+
+body {
+    /*background: rgba(150,60,60,0.2);*/
+    /*background: linear-gradient(21deg, rgba(17,16,16,1) 0%, rgba(179,172,172,1) 45%, rgba(252,252,252,1) 100%);*/
+    /*background: linear-gradient(21deg, rgba(150,150,150,0.4) 0%, rgba(200,200,200,1) 45%, rgba(252,252,252,1) 100%);*/
+    /*background: linear-gradient(21deg, rgba(150,150,150,0.4) 0%, rgba(252,252,252,1) 100%);*/
+    background: #efefef;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    /*height: 60px;*/
+    /*background: green;*/
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+
+}
+
+@media only screen and (max-width: 1000px) {
+  main {
+    /*background-color: lightblue;*/
+
+    grid-template-columns: 1fr;
+  }
+}
+
+main figure {
+    /*max-height: 100vh;*/
+    /*overflow: hidden;*/
+}
+
+main figure:hover {
+     transform: scale(0.97);
+    -webkit-filter: grayscale(90%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(90%); /* FF 35+ */
+}
+
+main article {
+    padding: 2.5% 5vw;
+    /*background: rgba(150,30,30,0.5);*/
+}
+
+main article h2 {
+    padding-bottom: 1rem;
+}
+
+main article:hover {
+    transform: scale(0.99);
+    filter: hue-rotate(-45deg);
+}
+
+img {
+    max-width: 100%;
+}
+
+.navbar-nav {
+    font-family: 'PT Sans';
+}
+
+.fa-linkedin:hover {
+	color: #0077B5;
+}
+
+.fa-twitter-square:hover {
+	color: #00adef;
+}
+
+.fa-facebook:hover {
+	color: #3b5998;
+}
+
+.fa-medium-m:hover {
+	color: #03a87c;
+}
 
 
 
